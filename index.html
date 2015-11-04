@@ -21,9 +21,11 @@
 
         <!-- Add your site or application content here -->
         <div class="banner">
-	        <h3>Delta Institute's</h3>
+	        <img src="img/deltaLogoWhite.svg" class="logo">
 	        <h1>User Experience for Recycling Systems</h1>
-	        <p>Your recycling and compost systems is only as successful as your ability to get users to dispose of materials correctly. Our approach goes to the source and helps you better understand how people make decisions in your space to improve your waste diversion rate.</p>
+	        <div class="bannerCaption">
+	        	<p>Your recycling and compost systems is only as successful as your ability to get users to dispose of materials correctly. Our approach goes to the source and helps you better understand how people make decisions in your space to improve your waste diversion rate.</p>
+	        </div>
 	    </div>
 	    <section>
 	    	<h2>The Problem</h2>
@@ -86,6 +88,44 @@
 	    	<p>Repellendus culpa sint non sit incidunt, molestias qui nam velit aliquam, aut voluptate! Dolor hic ullam dolores vel voluptatem aperiam quidem quis unde, incidunt temporibus vero, natus, doloribus deleniti saepe! Autem praesentium odio reprehenderit facere necessitatibus laboriosam adipisci unde quisquam eligendi quo, nemo, totam et numquam aspernatur dolor inventore recusandae explicabo nam ut tempore. Hic sequi ex molestiae dolorum consequatur.</p>
 	    	<img src="http://placehold.it/1500x800" class="img-responsive">
 	    </section>
+	    <div class="contact clearfix">
+	    	<div class="contactForm" style="background-color:#228dba">
+				<h3>Get In Touch</h3>
+				<form action="//formspree.io/cmcginnis@delta-institute.org" method="POST">
+				    <input type="text" name="name" id="yourName" placeholder="Name">
+				    <input type="email" name="email" id="yourEmail" placeholder="Email address">
+				    <input type="text" name="subject" id="emailSubject" placeholder="Subject">
+				    <textarea name="emailMessage" type="text" id="emailMessage" placeholder="Message"></textarea>
+					<br>
+					<input type="submit" name="submitButton" id="submitButton">
+				</form>
+			</div>
+			<div class="teamInfo" style="background-color:#228dba">
+				<h3>Meet the Team</h3>
+				<div class="meetTheTeam">
+					<img src="img/martin.png">
+					<h3>Martin Brown</h3>
+					<h4>Quantitative Analysis & Implementation</h4>
+					<a href="mailto:mbrown@delta-institute.org">mbrown@delta-institute.org</a>
+				</div>
+				<div class="meetTheTeam">
+					<img src="img/colleen.png">
+					<h3>Colleen McGinnis</h3>
+					<h4>Qualitative Research & Visual Design</h4>
+					<a href="mailto:cmcginnis@delta-institute.org">cmcginnis@delta-institute.org</a>
+				</div>
+				<div class="meetTheTeam">
+					<img src="img/kevin.png">
+					<h3>Kevin Dick, LEED AP</h3>
+					<h4>Advisor</h4>
+					<a href="mailto:kdick@delta-institute.org">kdick@delta-institute.org</a>
+				</div>
+			</div>
+	    </div>
+	    <footer>
+	        <p>Site designed and developed by Delta Institute and hosted on GitHub Pages.</p>
+	        <p>Copyright &copy; 2015 Delta Institute. All rights reserved.</p>
+    	</footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -94,12 +134,12 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+        //     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        //     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        //     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        //     e.src='//www.google-analytics.com/analytics.js';
+        //     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        //     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        // </script>
     </body>
 </html>

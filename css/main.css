@@ -94,8 +94,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+    font-size: 20px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0; 
+    margin-top: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: .25rem;
+}
+
+p {
+    font-size: .9rem;
 }
 
 .img-responsive {
@@ -106,10 +137,20 @@ body {
 
 .banner {
     background-color: #6a646a;
-    height: 100vh;
+    background-position: bottom;
+    background-size: 100%;
+    height: 75vh;
     color: #fff;
     width: 90%;
-    padding: 2em 5%;
+    padding: 30vh 5% 0 5%;
+}
+
+.logo {
+    width: 10%;
+}
+
+.bannerCaption {
+    width: 60%;
 }
 
 section {
@@ -117,10 +158,100 @@ section {
     width: 90%;
 }
 
+.contact {
+    background-color: #228dba;
+    color: #fff;
+    height: 100%;
+    padding: 2em 5%;
+}
+
+.contactForm {
+    width: 40%;
+    float: left;
+    padding-right: 5%;
+}
+
+.teamInfo {
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+}
+
+.meetTheTeam {
+    clear:both;
+    padding-bottom: 4rem;
+}
+
+.meetTheTeam img {
+  width: 30%;
+  float: left;
+  padding: 0 2%;
+}
+
+.meetTheTeam h3 {
+  padding-top: 0;
+}
+
+.meetTheTeam h4 {
+  opacity: .6;
+  margin-top: 0;
+}
+
+.meetTheTeam a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 0;
+}
+
+.contactForm form {
+  padding: 2%;
+  color: #000;
+}
+
+#yourName, #yourEmail, #emailSubject {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  border: none;
+  padding: 1% 4%;
+  outline: none;
+}
+
+#emailMessage {
+  width: 100%;
+  height: 190px;
+  border-radius: 2px;
+  border: none;
+  padding: 3% 4%;
+  resize: none;
+  outline: none;
+}
+
+#submitButton {
+  width: 108%;
+  margin-top: 10px;
+  border: 4px solid #fff;
+  background-color: rgba(225, 225, 225, .4);
+  color: #fff;
+  padding: 3%;
+  font-weight: 700;
+  font-size: 30px;
+  transition: border .2s ease;
+}
+
+#submitButton:hover, #submitButton:active, #submitButton:visited {
+  border: 4px solid #228dba;
+  outline: none;
+}
 
 
-
-
+footer {
+    background-color: #228dba;
+    color: #fff;
+    padding: 2em 6%;
+    margin-bottom: 0;
+}
 
 
 
