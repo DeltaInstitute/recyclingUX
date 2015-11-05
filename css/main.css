@@ -103,13 +103,16 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
 
 h2 {
     font-size: 2rem;
+    color: #6a646a;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 h3 {
@@ -135,14 +138,19 @@ p {
     height: auto;
 }
 
+.illustration {
+  max-height: 90vh;
+}
+
 .banner {
-    background-color: #6a646a;
     background-position: bottom;
     background-size: 100%;
+    background-color: #6a646a;
     height: 75vh;
     color: #fff;
     width: 90%;
     padding: 30vh 5% 0 5%;
+    max-width: 1200px;
 }
 
 .logo {
@@ -150,12 +158,80 @@ p {
 }
 
 .bannerCaption {
-    width: 60%;
+    max-width: 700px;
 }
 
 section {
     margin: 2em 5%;
     width: 90%;
+    max-width:1200px;
+}
+
+.ourApproach {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.ourApproachResearch, 
+.ourApproachAudit, 
+.ourApproachDesign, 
+.ourApproachTesting {
+  width: 23%;
+  float: left;
+  margin-right: 2%;
+}
+
+.ourApproach {
+    margin: 2em 0;
+    height: 50vh;
+}
+
+.ourApproach svg {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ourApproach h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.ourApproach p {
+    color: #000;
+    margin: 0;
+}
+
+#researchTitle {
+    color: #6a646a;
+    cursor: pointer;
+}
+
+#auditTitle, #designTitle, #pilotTitle {
+    color: #6a646a;
+    cursor:pointer;
+    opacity: .3;
+}
+
+#researchTitle svg {
+    background-color: #6a646a;
+}
+
+#auditTitle svg {
+    background-color: #6a646a;
+}
+
+#designTitle svg {
+    background-color: #6a646a;
+}
+
+#pilotTitle svg {
+    background-color: #6a646a;
+}
+
+#auditText, #designText, #pilotText {
+    display: none;
 }
 
 .contact {
@@ -163,6 +239,7 @@ section {
     color: #fff;
     height: 100%;
     padding: 2em 5%;
+    max-width: 1200px;
 }
 
 .contactForm {
@@ -172,7 +249,7 @@ section {
 }
 
 .teamInfo {
-    width: 40%;
+    width: 50%;
     float: left;
     padding-left: 5%;
 }
@@ -251,6 +328,7 @@ footer {
     color: #fff;
     padding: 2em 6%;
     margin-bottom: 0;
+    max-width: 1200px;
 }
 
 
@@ -351,6 +429,13 @@ footer {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
+}
+
+@media screen and (min-width: 1500px) {
+  section, .banner, .contact, footer {
+    margin: 0 auto;
+    padding: auto;
+  }
 }
 
 /* ==========================================================================
